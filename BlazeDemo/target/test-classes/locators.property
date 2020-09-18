@@ -1,0 +1,22 @@
+// login xpath
+loc_login = //a[text()='Log in']
+loc_username = //input[@id='loginusername']
+loc_password = //input[@id='loginpassword']
+loc_submitbutton = //button[text()='Log in']
+
+// xpath for signup
+loc_signupusername = //input[@id='sign-username']
+loc_signupusernames = //input[@id='sign-username']
+loc_password = //input[@id='sign-password']
+loc_signupbutton = //button[text()='Sign up']
+
+
+//xpath for contact
+loc_contact = //a[text()='Contact']
+loc_recipientmail = //input[@id='recipient-email']
+loc_recipientmails = //input[@id='sign-password']
+loc_text = //textarea[@id='message-text']
+loc_contactbutton = //button[text()='Send message']
+
+//xpath for add to cart
+loc_product = //a[text()='Samsung galaxy s6']

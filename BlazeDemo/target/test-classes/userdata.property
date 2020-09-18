@@ -1,0 +1,24 @@
+// user data for login
+user_mailid = maheshprabha1235@gmail.com
+user_password = Mahesh
+
+
+
+
+//user data for signup
+user_signupdata = maheshprabha1235@gmail.com
+user_password = Mahesh
+
+
+//user data for contact functions
+ 
+user_recipientmailid = maheshprabha123@gmail.com
+user_recipientname = Mahesh
+user_text = Mobile is good
+
+user_skills = APIs
+user_country = India
+user_selectcountry = India
+user_year = 2000
+user_month = May
+user_day = 12
