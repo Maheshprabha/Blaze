@@ -1,15 +1,17 @@
-package com.atmecs.selenium;
+package com.atmecs.blazedemo.pageactions;
 
 import java.util.Properties;
 
-import com.atmecs.baseclass.BaseClass;
-import com.atmecs.commonhelpers.CommonHelpers;
-import com.atmecs.filepath.FilePath;
-import com.atmecs.readerlocation.ReaderLocation;
+import org.openqa.selenium.WebDriver;
 
-public class ContactdetailsTest extends BaseClass {
+import com.atmecs.blazedemo.commonhelpers.CommonHelpers;
+import com.atmecs.blazedemo.filepath.FilePath;
+import com.atmecs.blazedemo.readerlocation.ReaderLocation;
+
+public class ContactDetailsPageAction {
 	static Properties property;
-	ReaderLocation read = new ReaderLocation(); 
+	ReaderLocation read = new ReaderLocation();
+	WebDriver driver;
 	
 		public void contactDetails() throws Exception {
 			System.out.println("launch chrome");
@@ -30,5 +32,7 @@ public class ContactdetailsTest extends BaseClass {
         //click submit button
         CommonHelpers.clickAction(driver,  property.getProperty("loc_contactbutton"));
 		}
+
+
 
 }

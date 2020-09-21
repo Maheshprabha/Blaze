@@ -1,15 +1,17 @@
-package com.atmecs.selenium;
+package com.atmecs.blazedemo.pageactions;
 
 import java.util.Properties;
 
-import com.atmecs.baseclass.BaseClass;
-import com.atmecs.commonhelpers.CommonHelpers;
-import com.atmecs.filepath.FilePath;
-import com.atmecs.readerlocation.ReaderLocation;
+import org.openqa.selenium.WebDriver;
 
-public class AddToCartTest extends BaseClass {
+import com.atmecs.blazedemo.commonhelpers.CommonHelpers;
+import com.atmecs.blazedemo.filepath.FilePath;
+import com.atmecs.blazedemo.readerlocation.ReaderLocation;
+
+public class AddtocartPageAction {
 	static Properties property;
 	ReaderLocation read = new ReaderLocation(); 
+	WebDriver driver;
 	
 		public void addToCart() throws Exception {
 			System.out.println("launch chrome");
@@ -20,8 +22,6 @@ public class AddToCartTest extends BaseClass {
 	        CommonHelpers.clickAction(driver, property.getProperty("loc_product"));
 
 			CommonHelpers.validate(driver,property.getProperty("loc_mobile"), property.getProperty("loc_product"));
-
-
 		}
 
 }

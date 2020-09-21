@@ -1,4 +1,4 @@
-package com.atmecs.baseclass;
+package com.atmecs.blazedemo.baseclass;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -8,8 +8,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;
 
-import com.atmecs.filepath.FilePath;
-import com.atmecs.readerlocation.ReaderLocation;
+import com.atmecs.blazedemo.filepath.FilePath;
+import com.atmecs.blazedemo.readerlocation.ReaderLocation;
 
 public class BaseClass {
      Properties property;

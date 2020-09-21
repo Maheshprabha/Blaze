@@ -1,6 +1,6 @@
 
 
-package com.atmecs.filepath;
+package com.atmecs.blazedemo.filepath;
 
 import java.io.File;
 

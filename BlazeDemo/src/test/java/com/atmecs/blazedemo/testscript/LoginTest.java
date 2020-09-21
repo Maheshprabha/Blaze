@@ -1,14 +1,30 @@
-package com.atmecs.selenium;
+package com.atmecs.blazedemo.testscript;
 
-import java.util.Properties;
 
-import com.atmecs.baseclass.BaseClass;
-import com.atmecs.commonhelpers.CommonHelpers;
-import com.atmecs.filepath.FilePath;
-import com.atmecs.readerlocation.ReaderLocation;
+import com.atmecs.blazedemo.baseclass.BaseClass;
+import com.atmecs.blazedemo.pageactions.LoginPageAction;
+
 
 public class LoginTest extends BaseClass {
-	static Properties property;
+	LoginPageAction login = new LoginPageAction();
+	public void LoginDetails() throws Exception{
+		login.loginDetails();
+	}
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+/*	static Properties property;
 	ReaderLocation read = new ReaderLocation(); 
 	
 		public void loginDetails() throws Exception {
@@ -25,8 +41,8 @@ public class LoginTest extends BaseClass {
         
         //click submit button
         CommonHelpers.clickAction(driver,  property.getProperty("loc_submitbutton"));
+*/
+
+	
 
 
-	}
-
-}

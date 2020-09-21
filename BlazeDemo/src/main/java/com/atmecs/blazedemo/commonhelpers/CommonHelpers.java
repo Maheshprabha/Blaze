@@ -1,4 +1,4 @@
-package com.atmecs.commonhelpers;
+package com.atmecs.blazedemo.commonhelpers;
 
 import java.util.Iterator;
 import java.util.Set;
