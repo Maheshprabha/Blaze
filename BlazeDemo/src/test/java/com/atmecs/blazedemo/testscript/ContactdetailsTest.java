@@ -7,9 +7,9 @@ import com.atmecs.blazedemo.pageactions.ContactDetailsPageAction;
 
 
 public class ContactdetailsTest extends BaseClass {
-	ContactDetailsPageAction contactdetails = new ContactDetailsPageAction();
+	ContactDetailsPageAction contact = new ContactDetailsPageAction();
 	public void contactTest() throws Exception {
-		contactdetails.contactDetails();
+		contact.contactDetails();
 	}
 	
 	

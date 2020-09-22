@@ -2,8 +2,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-    <classes>
-      <class name="com.atmecs.selenium.Practice"/>
+      <classes>
+      <class name="com.atmecs.blazedemo.testscript.SignupTest"/>
+      <class name="com.atmecs.blazedemo.testscript.LoginTest"/>
+      <class name="com.atmecs.blazedemo.testscript.ContactdetailsTest"/>
+      <class name="com.atmecs.blazedemo.testscript.AddToCartTest"/>
+      
     </classes>
   </test> <!-- Test -->
+  
 </suite> <!-- Suite -->

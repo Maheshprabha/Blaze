@@ -7,9 +7,9 @@ import com.atmecs.blazedemo.pageactions.AddtocartPageAction;
 
 
 public class AddToCartTest extends BaseClass {
-	AddtocartPageAction addtocart = new AddtocartPageAction(); 
+	AddtocartPageAction addtocartproduct = new AddtocartPageAction(); 
 	public void purchase() throws Exception {
-		addtocart.addToCart();
+		addtocartproduct.addToCart();
 	}
 }
 
